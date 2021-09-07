@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.App {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  border-bottom: none;
+  margin: 1rem;
+  box-shadow: 3px 3px 3px 3px gray;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.header {
+  margin: 0;
+  background: blue;
+  color: white;
+  border-top-left-radius: 25px;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  #root {
+    padding-top: 1rem;
+  }
+
+  .App {
+    padding-top: 3rem;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+  }
+}

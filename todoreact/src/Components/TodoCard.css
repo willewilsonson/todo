@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.todo-list__todo--done .todo__text--underlined {
+  text-decoration: line-through;
+}
+
+.todo-list__button-remove--hidden {
+  display: none;
+}
+
+.todo-list__todo {
+  order: 3;
+}
+
+.todo-list__todo--done {
+  order: 5;
+  background: grey;
+}
+
+.todo-list__todo, .todo-list__todo--done {
+  font-family: 'Handlee', cursive;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.todo-list__button-done, .todo-list__button-remove {
+  text-decoration: none;
+}

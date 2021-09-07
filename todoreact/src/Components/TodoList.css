@@ -1,0 +1,30 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list__form {
+  background: red;
+  order: 1;
+  padding: 2rem;
+}
+
+.pending {
+  order: 2;
+}
+
+.completed {
+  order: 4;
+  background: lightgray;
+}
+
+.pending, .completed {
+  border-top: 3px solid;
+}
+
+.todo-list__clear-button {
+  order: 6;
+  margin: 1rem;
+  width: 25%;
+  margin: 2rem auto;
+}
